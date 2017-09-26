@@ -1,7 +1,7 @@
 {
-        "name": "Select_trad",
+        "name": "Sélection, traduction",
         "description": "sélectionne & traduit",
-        "version": "1.0",
+        "version": "0.1",
         "permissions": ["contextMenus"],
         "browser_action": {
                 "default_icon": "icon.png"
