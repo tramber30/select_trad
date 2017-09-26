@@ -1,14 +1,13 @@
 #!/bin/bash
 PACKAGE_OUT=./package
 PACKAGE_NAME=select_trad
+PACKAGE_EXCLUDE="$0|.gitignore"
 
 if [ ! -d $PACKAGE_OUT ]; then
         mkdir -p $PACKAGE_OUT
 else
-        if [ -e $PACKAGE_OUT/$PACKAGE_NAME ]; then
-                rm $PACKAGE_OUT/$PACKAGE_NAME
-        fi
+        rm $PACKAGE_OUT/*
 fi
 
-find . -maxdepth 1 -type f | zip $PACKAGE_OUT/$PACKAGE_NAME -@
+find . -maxdepth 1 -type f | grep -vE $PACKAGE_EXCLUDE | zip $PACKAGE_OUT/$PACKAGE_NAME -@
 
