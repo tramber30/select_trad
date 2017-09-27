@@ -1,6 +1,14 @@
-Extension chrome de traduction Anglais-Francais utilisant le menu contextuel 
-du navigateur lors d'une selection pour ouvrir une page vers wordreference.com.
-###
-Chrome extension used to translate English-French using the selection contextual 
-menu of the browser in order to open a page on wordreference.com.
+# Description:
+        (fr) Extension chrome de traduction Anglais-Francais utilisant le menu contextuel 
+        du navigateur lors d'une selection pour ouvrir une page vers wordreference.com.
+        
+        (en) Chrome extension used to translate English-French using the selection contextual 
+        menu of the browser in order to open a page on wordreference.com.
 
+# Source code can be found here:
+        https://github.com/tramber30/select_trad
+
+# Screenshots can be found in picture folder
+
+# Chrome web store link:
+        https://chrome.google.com/webstore/detail/sélection-traduction/kjhldjalmcamoegjkcnickjoifoghgdk
